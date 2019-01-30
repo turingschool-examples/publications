@@ -42,11 +42,11 @@ app.get('/api/v1/footnotes', (request, response) => {
 app.post('/api/v1/papers', (request, response) => {
   const paper = request.body;
 
-  for (let requiredParameter of ['title', 'author']) {
+  for (let requiredParameter of ['title', 'author', 'publisher']) {
     if (!paper[requiredParameter]) {
       return response
         .status(422)
-        .send({ error: `Expected format: { title: <String>, author: <String> }. You're missing a "${requiredParameter}" property.` });
+        .send({ error: `Expected format: { title: <String>, author: <String>, publisher: <String> }. You're missing a "${requiredParameter}" property.` });
     }
   }
 
