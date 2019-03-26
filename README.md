@@ -1,5 +1,5 @@
 # Publications
-Is a completed Backend Mod 4 exercise from the Building an Express App lesson.
+Is a completed Backend Mod 4 exercise from the [Building an Express App lesson](http://backend.turing.io/module4/lessons/express_knex)
 
 ## Getting Started
 
