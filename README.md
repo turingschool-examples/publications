@@ -23,7 +23,7 @@ Run the following in your terminal:
 
 `CREATE DATABASE publications;`
 
-`\q` (This will exit from psql
+`\q` This will exit from psql
 
 Great! Now let's actually get into the app.
 From the terminal be sure that you navigate to the `publications` directory.
