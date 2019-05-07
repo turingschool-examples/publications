@@ -21,7 +21,7 @@ Run the following in your terminal:
 
 `psql`
 
-`CREATE DATATBASE publications;`
+`CREATE DATABASE publications;`
 
 `\q` (This will exit from psql
 
