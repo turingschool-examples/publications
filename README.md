@@ -7,7 +7,7 @@ First start by cloning down this repo.
 
 _With SSH_
 
-`git clone git@github.com:turing`
+`git clone git@github.com:turingschool-examples/publications.git`
 
 _With HTTPS_
 
