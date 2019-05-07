@@ -38,7 +38,7 @@ knex seed:run
 Now that the setup is complete. Let's take a look at the available end points.
 
 ## Endpoints
-Spin up your local server by running `node index.js`
+Spin up your local server by running `node index.js` or `npm start` from the command line.
 
 Endpoints will return a JSON response
 
